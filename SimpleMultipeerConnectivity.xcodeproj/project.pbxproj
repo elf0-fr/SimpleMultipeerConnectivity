@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		76D9AF342B8007CE00D711E9 /* SimpleMultipeerConnectivityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF332B8007CE00D711E9 /* SimpleMultipeerConnectivityApp.swift */; };
 		76D9AF362B8007CE00D711E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF352B8007CE00D711E9 /* ContentView.swift */; };
-		76D9AF382B8007CE00D711E9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF372B8007CE00D711E9 /* Item.swift */; };
 		76D9AF3A2B8007CF00D711E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D9AF392B8007CF00D711E9 /* Assets.xcassets */; };
 		76D9AF3D2B8007CF00D711E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D9AF3C2B8007CF00D711E9 /* Preview Assets.xcassets */; };
 		76D9AF472B8007D000D711E9 /* SimpleMultipeerConnectivityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF462B8007D000D711E9 /* SimpleMultipeerConnectivityTests.swift */; };
@@ -38,7 +37,6 @@
 		76D9AF302B8007CE00D711E9 /* SimpleMultipeerConnectivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMultipeerConnectivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D9AF332B8007CE00D711E9 /* SimpleMultipeerConnectivityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMultipeerConnectivityApp.swift; sourceTree = "<group>"; };
 		76D9AF352B8007CE00D711E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		76D9AF372B8007CE00D711E9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		76D9AF392B8007CF00D711E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76D9AF3C2B8007CF00D711E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76D9AF422B8007D000D711E9 /* SimpleMultipeerConnectivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMultipeerConnectivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +96,6 @@
 			children = (
 				76D9AF332B8007CE00D711E9 /* SimpleMultipeerConnectivityApp.swift */,
 				76D9AF352B8007CE00D711E9 /* ContentView.swift */,
-				76D9AF372B8007CE00D711E9 /* Item.swift */,
 				76D9AF392B8007CF00D711E9 /* Assets.xcassets */,
 				76D9AF3B2B8007CF00D711E9 /* Preview Content */,
 			);
@@ -261,7 +258,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				76D9AF362B8007CE00D711E9 /* ContentView.swift in Sources */,
-				76D9AF382B8007CE00D711E9 /* Item.swift in Sources */,
 				76D9AF342B8007CE00D711E9 /* SimpleMultipeerConnectivityApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
