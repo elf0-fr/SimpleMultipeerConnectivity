@@ -9,12 +9,17 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-
     var body: some View {
-        Text("Hello World!")
+        SessionView()
     }
 }
 
-#Preview {
+#Preview("Preview") {
     ContentView()
+        .modelPreview()
+}
+
+#Preview("Running") {
+    ContentView()
+        .model()
 }

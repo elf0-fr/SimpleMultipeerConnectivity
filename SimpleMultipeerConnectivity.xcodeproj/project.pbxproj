@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		769722422B88C6E7001FDB3A /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769722412B88C6E7001FDB3A /* SessionView.swift */; };
+		769722442B89DC34001FDB3A /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769722432B89DC34001FDB3A /* DevicesView.swift */; };
+		769722462B89E1E8001FDB3A /* AdvertiserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769722452B89E1E8001FDB3A /* AdvertiserView.swift */; };
+		76A606832B8BA5A800635CD0 /* ModelModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A606822B8BA5A800635CD0 /* ModelModifier.swift */; };
+		76B6FD0A2B80C8490059C02E /* PermissionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B6FD092B80C8490059C02E /* PermissionRequest.swift */; };
+		76D77F662B8278E400F56617 /* SessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D77F652B8278E400F56617 /* SessionModel.swift */; };
 		76D9AF342B8007CE00D711E9 /* SimpleMultipeerConnectivityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF332B8007CE00D711E9 /* SimpleMultipeerConnectivityApp.swift */; };
 		76D9AF362B8007CE00D711E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF352B8007CE00D711E9 /* ContentView.swift */; };
 		76D9AF3A2B8007CF00D711E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D9AF392B8007CF00D711E9 /* Assets.xcassets */; };
@@ -14,6 +20,13 @@
 		76D9AF472B8007D000D711E9 /* SimpleMultipeerConnectivityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF462B8007D000D711E9 /* SimpleMultipeerConnectivityTests.swift */; };
 		76D9AF512B8007D000D711E9 /* SimpleMultipeerConnectivityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF502B8007D000D711E9 /* SimpleMultipeerConnectivityUITests.swift */; };
 		76D9AF532B8007D000D711E9 /* SimpleMultipeerConnectivityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF522B8007D000D711E9 /* SimpleMultipeerConnectivityUITestsLaunchTests.swift */; };
+		76D9AF642B801DCB00D711E9 /* AdvertiserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF632B801DCB00D711E9 /* AdvertiserModel.swift */; };
+		76D9AF662B801DF500D711E9 /* BrowserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF652B801DF500D711E9 /* BrowserModel.swift */; };
+		76D9AF682B801F8400D711E9 /* Multipeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF672B801F8400D711E9 /* Multipeer.swift */; };
+		76D9AF6A2B8021B800D711E9 /* PeerDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF692B8021B800D711E9 /* PeerDevice.swift */; };
+		76D9AF6D2B80248E00D711E9 /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF6C2B80248E00D711E9 /* ConnectionView.swift */; };
+		76D9AF6F2B80B96700D711E9 /* DeviceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF6E2B80B96700D711E9 /* DeviceRowView.swift */; };
+		76D9AF712B80BC9D00D711E9 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF702B80BC9D00D711E9 /* BrowserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		769722412B88C6E7001FDB3A /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		769722432B89DC34001FDB3A /* DevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
+		769722452B89E1E8001FDB3A /* AdvertiserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertiserView.swift; sourceTree = "<group>"; };
+		76A606822B8BA5A800635CD0 /* ModelModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelModifier.swift; sourceTree = "<group>"; };
+		76B6FD092B80C8490059C02E /* PermissionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequest.swift; sourceTree = "<group>"; };
+		76D77F652B8278E400F56617 /* SessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionModel.swift; sourceTree = "<group>"; };
 		76D9AF302B8007CE00D711E9 /* SimpleMultipeerConnectivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMultipeerConnectivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D9AF332B8007CE00D711E9 /* SimpleMultipeerConnectivityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMultipeerConnectivityApp.swift; sourceTree = "<group>"; };
 		76D9AF352B8007CE00D711E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +63,14 @@
 		76D9AF4C2B8007D000D711E9 /* SimpleMultipeerConnectivityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMultipeerConnectivityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D9AF502B8007D000D711E9 /* SimpleMultipeerConnectivityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMultipeerConnectivityUITests.swift; sourceTree = "<group>"; };
 		76D9AF522B8007D000D711E9 /* SimpleMultipeerConnectivityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMultipeerConnectivityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		76D9AF5F2B800F4000D711E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		76D9AF632B801DCB00D711E9 /* AdvertiserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertiserModel.swift; sourceTree = "<group>"; };
+		76D9AF652B801DF500D711E9 /* BrowserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserModel.swift; sourceTree = "<group>"; };
+		76D9AF672B801F8400D711E9 /* Multipeer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multipeer.swift; sourceTree = "<group>"; };
+		76D9AF692B8021B800D711E9 /* PeerDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerDevice.swift; sourceTree = "<group>"; };
+		76D9AF6C2B80248E00D711E9 /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		76D9AF6E2B80B96700D711E9 /* DeviceRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRowView.swift; sourceTree = "<group>"; };
+		76D9AF702B80BC9D00D711E9 /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +98,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76D77F672B83CCA400F56617 /* Multipeer Connectivity */ = {
+			isa = PBXGroup;
+			children = (
+				769722412B88C6E7001FDB3A /* SessionView.swift */,
+				76D9AF6C2B80248E00D711E9 /* ConnectionView.swift */,
+				769722452B89E1E8001FDB3A /* AdvertiserView.swift */,
+				76D9AF702B80BC9D00D711E9 /* BrowserView.swift */,
+				769722432B89DC34001FDB3A /* DevicesView.swift */,
+				76D9AF6E2B80B96700D711E9 /* DeviceRowView.swift */,
+			);
+			path = "Multipeer Connectivity";
+			sourceTree = "<group>";
+		};
 		76D9AF272B8007CE00D711E9 = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +135,9 @@
 			isa = PBXGroup;
 			children = (
 				76D9AF332B8007CE00D711E9 /* SimpleMultipeerConnectivityApp.swift */,
-				76D9AF352B8007CE00D711E9 /* ContentView.swift */,
+				76D9AF6B2B80244300D711E9 /* Views */,
+				76D9AF602B80118600D711E9 /* Model */,
+				76D9AF5F2B800F4000D711E9 /* Info.plist */,
 				76D9AF392B8007CF00D711E9 /* Assets.xcassets */,
 				76D9AF3B2B8007CF00D711E9 /* Preview Content */,
 			);
@@ -125,6 +167,29 @@
 				76D9AF522B8007D000D711E9 /* SimpleMultipeerConnectivityUITestsLaunchTests.swift */,
 			);
 			path = SimpleMultipeerConnectivityUITests;
+			sourceTree = "<group>";
+		};
+		76D9AF602B80118600D711E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76D9AF672B801F8400D711E9 /* Multipeer.swift */,
+				76D77F652B8278E400F56617 /* SessionModel.swift */,
+				76D9AF632B801DCB00D711E9 /* AdvertiserModel.swift */,
+				76D9AF652B801DF500D711E9 /* BrowserModel.swift */,
+				76D9AF692B8021B800D711E9 /* PeerDevice.swift */,
+				76B6FD092B80C8490059C02E /* PermissionRequest.swift */,
+				76A606822B8BA5A800635CD0 /* ModelModifier.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76D9AF6B2B80244300D711E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				76D9AF352B8007CE00D711E9 /* ContentView.swift */,
+				76D77F672B83CCA400F56617 /* Multipeer Connectivity */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +322,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B6FD0A2B80C8490059C02E /* PermissionRequest.swift in Sources */,
+				76D9AF662B801DF500D711E9 /* BrowserModel.swift in Sources */,
+				76A606832B8BA5A800635CD0 /* ModelModifier.swift in Sources */,
+				76D77F662B8278E400F56617 /* SessionModel.swift in Sources */,
+				769722442B89DC34001FDB3A /* DevicesView.swift in Sources */,
+				76D9AF6F2B80B96700D711E9 /* DeviceRowView.swift in Sources */,
+				769722462B89E1E8001FDB3A /* AdvertiserView.swift in Sources */,
+				76D9AF642B801DCB00D711E9 /* AdvertiserModel.swift in Sources */,
+				76D9AF712B80BC9D00D711E9 /* BrowserView.swift in Sources */,
+				76D9AF6D2B80248E00D711E9 /* ConnectionView.swift in Sources */,
+				769722422B88C6E7001FDB3A /* SessionView.swift in Sources */,
 				76D9AF362B8007CE00D711E9 /* ContentView.swift in Sources */,
 				76D9AF342B8007CE00D711E9 /* SimpleMultipeerConnectivityApp.swift in Sources */,
+				76D9AF682B801F8400D711E9 /* Multipeer.swift in Sources */,
+				76D9AF6A2B8021B800D711E9 /* PeerDevice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +503,8 @@
 				DEVELOPMENT_TEAM = DQFZB97R5H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleMultipeerConnectivity/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +534,8 @@
 				DEVELOPMENT_TEAM = DQFZB97R5H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleMultipeerConnectivity/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
