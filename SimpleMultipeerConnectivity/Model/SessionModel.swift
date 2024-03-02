@@ -31,6 +31,40 @@ class SessionModel: NSObject {
     func disconnect() {
         session.disconnect()
     }
+    
+    // MARK: - Message Implementation
+    
+    var lastSender: String = ""
+    var lastMessageReceived: String = ""
+    
+    func send(message: String) {
+        guard let data = message.data(using: .utf8) else {
+            return
+        }
+        
+        logger.debug("Send message")
+        
+        try? session.send(
+            data,
+            toPeers: connectedDevices.map({ peer in
+                peer.peerId
+            }),
+            with: .reliable
+        )
+    }
+    
+    func receiveMessage(
+        _ session: MCSession,
+        didReceive data: Data,
+        fromPeer peerID: MCPeerID
+    ) {
+        guard let message = String(data: data, encoding: .utf8) else {
+            return
+        }
+        
+        lastSender = peerID.displayName
+        lastMessageReceived = message
+    }
 }
 
 // MARK: - MCSessionDelegate implementation
@@ -97,31 +131,6 @@ extension SessionModel: MCSessionDelegate {
         at localURL: URL?,
         withError error: Error?
     ) {}
-}
-
-/// Example: A message application.
-extension SessionModel {
-    func send(message: String) {
-        guard let data = message.data(using: .utf8) else {
-            return
-        }
-        
-//        try? session.send(
-//            data,
-//            toPeers: joinedPeer.map({ peer in
-//                peer.peerId
-//            }),
-//            with: .reliable
-//        )
-    }
-    
-    func receiveMessage(
-        _ session: MCSession,
-        didReceive data: Data,
-        fromPeer peerID: MCPeerID
-    ) {
-        
-    }
 }
 
 // MARK: - Preview

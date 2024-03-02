@@ -10,12 +10,41 @@ import SwiftUI
 struct SessionView: View {
     @Environment(SessionModel.self) var sessionModel
     @State private var showNearByDevices = false
+    @State private var text = ""
     
     var body: some View {
         NavigationStack {
-            List(sessionModel.connectedDevices) { peer in
-                Text(peer.peerId.displayName)
+            VStack{
+                if !sessionModel.connectedDevices.isEmpty {
+                    Form {
+                        ForEach(sessionModel.connectedDevices) { peer in
+                            Text(peer.peerId.displayName)
+                        }
+                        
+                        if !sessionModel.lastSender.isEmpty {
+                            Section {
+                                Text("\(sessionModel.lastSender):")
+                                Text(sessionModel.lastMessageReceived)
+                            }
+                        }
+                        
+                        Section {
+                            TextField(
+                                "Message",
+                                text: $text,
+                                prompt: Text("Message")
+                            )
+                            Button("Send Message") {
+                                sessionModel.send(message: text)
+                            }
+                        }
+                    }
+                }
+                else {
+                    Text("No Device Connected")
+                }
             }
+            .navigationTitle("Session")
             .toolbar() {
                 Button() {
                     showNearByDevices = true

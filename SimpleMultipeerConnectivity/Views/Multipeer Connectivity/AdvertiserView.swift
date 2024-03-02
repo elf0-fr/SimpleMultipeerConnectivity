@@ -42,6 +42,9 @@ struct AdvertiserView<Label>: View where Label: View {
                 advertiseModel.permissionRequest?.onRequest(true)
             }
         }
+        .onDisappear {
+            advertiserModel.isAdvertised = false
+        }
     }
 }
 
