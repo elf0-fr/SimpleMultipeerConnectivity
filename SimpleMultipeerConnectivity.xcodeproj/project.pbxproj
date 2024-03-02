@@ -17,9 +17,6 @@
 		76D9AF362B8007CE00D711E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF352B8007CE00D711E9 /* ContentView.swift */; };
 		76D9AF3A2B8007CF00D711E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D9AF392B8007CF00D711E9 /* Assets.xcassets */; };
 		76D9AF3D2B8007CF00D711E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D9AF3C2B8007CF00D711E9 /* Preview Assets.xcassets */; };
-		76D9AF472B8007D000D711E9 /* SimpleMultipeerConnectivityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF462B8007D000D711E9 /* SimpleMultipeerConnectivityTests.swift */; };
-		76D9AF512B8007D000D711E9 /* SimpleMultipeerConnectivityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF502B8007D000D711E9 /* SimpleMultipeerConnectivityUITests.swift */; };
-		76D9AF532B8007D000D711E9 /* SimpleMultipeerConnectivityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF522B8007D000D711E9 /* SimpleMultipeerConnectivityUITestsLaunchTests.swift */; };
 		76D9AF642B801DCB00D711E9 /* AdvertiserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF632B801DCB00D711E9 /* AdvertiserModel.swift */; };
 		76D9AF662B801DF500D711E9 /* BrowserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF652B801DF500D711E9 /* BrowserModel.swift */; };
 		76D9AF682B801F8400D711E9 /* Multipeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF672B801F8400D711E9 /* Multipeer.swift */; };
@@ -28,23 +25,6 @@
 		76D9AF6F2B80B96700D711E9 /* DeviceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF6E2B80B96700D711E9 /* DeviceRowView.swift */; };
 		76D9AF712B80BC9D00D711E9 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9AF702B80BC9D00D711E9 /* BrowserView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		76D9AF432B8007D000D711E9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 76D9AF282B8007CE00D711E9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 76D9AF2F2B8007CE00D711E9;
-			remoteInfo = SimpleMultipeerConnectivity;
-		};
-		76D9AF4D2B8007D000D711E9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 76D9AF282B8007CE00D711E9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 76D9AF2F2B8007CE00D711E9;
-			remoteInfo = SimpleMultipeerConnectivity;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		769722412B88C6E7001FDB3A /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
@@ -58,11 +38,6 @@
 		76D9AF352B8007CE00D711E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76D9AF392B8007CF00D711E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76D9AF3C2B8007CF00D711E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		76D9AF422B8007D000D711E9 /* SimpleMultipeerConnectivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMultipeerConnectivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		76D9AF462B8007D000D711E9 /* SimpleMultipeerConnectivityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMultipeerConnectivityTests.swift; sourceTree = "<group>"; };
-		76D9AF4C2B8007D000D711E9 /* SimpleMultipeerConnectivityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMultipeerConnectivityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		76D9AF502B8007D000D711E9 /* SimpleMultipeerConnectivityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMultipeerConnectivityUITests.swift; sourceTree = "<group>"; };
-		76D9AF522B8007D000D711E9 /* SimpleMultipeerConnectivityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMultipeerConnectivityUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		76D9AF5F2B800F4000D711E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		76D9AF632B801DCB00D711E9 /* AdvertiserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertiserModel.swift; sourceTree = "<group>"; };
 		76D9AF652B801DF500D711E9 /* BrowserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserModel.swift; sourceTree = "<group>"; };
@@ -75,20 +50,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		76D9AF2D2B8007CE00D711E9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76D9AF3F2B8007D000D711E9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76D9AF492B8007D000D711E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				76D9AF322B8007CE00D711E9 /* SimpleMultipeerConnectivity */,
-				76D9AF452B8007D000D711E9 /* SimpleMultipeerConnectivityTests */,
-				76D9AF4F2B8007D000D711E9 /* SimpleMultipeerConnectivityUITests */,
 				76D9AF312B8007CE00D711E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,8 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				76D9AF302B8007CE00D711E9 /* SimpleMultipeerConnectivity.app */,
-				76D9AF422B8007D000D711E9 /* SimpleMultipeerConnectivityTests.xctest */,
-				76D9AF4C2B8007D000D711E9 /* SimpleMultipeerConnectivityUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,23 +107,6 @@
 				76D9AF3C2B8007CF00D711E9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		76D9AF452B8007D000D711E9 /* SimpleMultipeerConnectivityTests */ = {
-			isa = PBXGroup;
-			children = (
-				76D9AF462B8007D000D711E9 /* SimpleMultipeerConnectivityTests.swift */,
-			);
-			path = SimpleMultipeerConnectivityTests;
-			sourceTree = "<group>";
-		};
-		76D9AF4F2B8007D000D711E9 /* SimpleMultipeerConnectivityUITests */ = {
-			isa = PBXGroup;
-			children = (
-				76D9AF502B8007D000D711E9 /* SimpleMultipeerConnectivityUITests.swift */,
-				76D9AF522B8007D000D711E9 /* SimpleMultipeerConnectivityUITestsLaunchTests.swift */,
-			);
-			path = SimpleMultipeerConnectivityUITests;
 			sourceTree = "<group>";
 		};
 		76D9AF602B80118600D711E9 /* Model */ = {
@@ -212,42 +152,6 @@
 			productReference = 76D9AF302B8007CE00D711E9 /* SimpleMultipeerConnectivity.app */;
 			productType = "com.apple.product-type.application";
 		};
-		76D9AF412B8007D000D711E9 /* SimpleMultipeerConnectivityTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 76D9AF592B8007D000D711E9 /* Build configuration list for PBXNativeTarget "SimpleMultipeerConnectivityTests" */;
-			buildPhases = (
-				76D9AF3E2B8007D000D711E9 /* Sources */,
-				76D9AF3F2B8007D000D711E9 /* Frameworks */,
-				76D9AF402B8007D000D711E9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				76D9AF442B8007D000D711E9 /* PBXTargetDependency */,
-			);
-			name = SimpleMultipeerConnectivityTests;
-			productName = SimpleMultipeerConnectivityTests;
-			productReference = 76D9AF422B8007D000D711E9 /* SimpleMultipeerConnectivityTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		76D9AF4B2B8007D000D711E9 /* SimpleMultipeerConnectivityUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 76D9AF5C2B8007D000D711E9 /* Build configuration list for PBXNativeTarget "SimpleMultipeerConnectivityUITests" */;
-			buildPhases = (
-				76D9AF482B8007D000D711E9 /* Sources */,
-				76D9AF492B8007D000D711E9 /* Frameworks */,
-				76D9AF4A2B8007D000D711E9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				76D9AF4E2B8007D000D711E9 /* PBXTargetDependency */,
-			);
-			name = SimpleMultipeerConnectivityUITests;
-			productName = SimpleMultipeerConnectivityUITests;
-			productReference = 76D9AF4C2B8007D000D711E9 /* SimpleMultipeerConnectivityUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -260,14 +164,6 @@
 				TargetAttributes = {
 					76D9AF2F2B8007CE00D711E9 = {
 						CreatedOnToolsVersion = 15.2;
-					};
-					76D9AF412B8007D000D711E9 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 76D9AF2F2B8007CE00D711E9;
-					};
-					76D9AF4B2B8007D000D711E9 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 76D9AF2F2B8007CE00D711E9;
 					};
 				};
 			};
@@ -285,8 +181,6 @@
 			projectRoot = "";
 			targets = (
 				76D9AF2F2B8007CE00D711E9 /* SimpleMultipeerConnectivity */,
-				76D9AF412B8007D000D711E9 /* SimpleMultipeerConnectivityTests */,
-				76D9AF4B2B8007D000D711E9 /* SimpleMultipeerConnectivityUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,20 +192,6 @@
 			files = (
 				76D9AF3D2B8007CF00D711E9 /* Preview Assets.xcassets in Resources */,
 				76D9AF3A2B8007CF00D711E9 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76D9AF402B8007D000D711E9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76D9AF4A2B8007D000D711E9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,37 +220,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76D9AF3E2B8007D000D711E9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76D9AF472B8007D000D711E9 /* SimpleMultipeerConnectivityTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76D9AF482B8007D000D711E9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76D9AF512B8007D000D711E9 /* SimpleMultipeerConnectivityUITests.swift in Sources */,
-				76D9AF532B8007D000D711E9 /* SimpleMultipeerConnectivityUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		76D9AF442B8007D000D711E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 76D9AF2F2B8007CE00D711E9 /* SimpleMultipeerConnectivity */;
-			targetProxy = 76D9AF432B8007D000D711E9 /* PBXContainerItemProxy */;
-		};
-		76D9AF4E2B8007D000D711E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 76D9AF2F2B8007CE00D711E9 /* SimpleMultipeerConnectivity */;
-			targetProxy = 76D9AF4D2B8007D000D711E9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		76D9AF542B8007D000D711E9 /* Debug */ = {
@@ -554,82 +404,6 @@
 			};
 			name = Release;
 		};
-		76D9AF5A2B8007D000D711E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DQFZB97R5H;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.romain-tirbisch.SimpleMultipeerConnectivityTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleMultipeerConnectivity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleMultipeerConnectivity";
-			};
-			name = Debug;
-		};
-		76D9AF5B2B8007D000D711E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DQFZB97R5H;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.romain-tirbisch.SimpleMultipeerConnectivityTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleMultipeerConnectivity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleMultipeerConnectivity";
-			};
-			name = Release;
-		};
-		76D9AF5D2B8007D000D711E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DQFZB97R5H;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.romain-tirbisch.SimpleMultipeerConnectivityUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SimpleMultipeerConnectivity;
-			};
-			name = Debug;
-		};
-		76D9AF5E2B8007D000D711E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DQFZB97R5H;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.romain-tirbisch.SimpleMultipeerConnectivityUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SimpleMultipeerConnectivity;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -647,24 +421,6 @@
 			buildConfigurations = (
 				76D9AF572B8007D000D711E9 /* Debug */,
 				76D9AF582B8007D000D711E9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		76D9AF592B8007D000D711E9 /* Build configuration list for PBXNativeTarget "SimpleMultipeerConnectivityTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				76D9AF5A2B8007D000D711E9 /* Debug */,
-				76D9AF5B2B8007D000D711E9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		76D9AF5C2B8007D000D711E9 /* Build configuration list for PBXNativeTarget "SimpleMultipeerConnectivityUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				76D9AF5D2B8007D000D711E9 /* Debug */,
-				76D9AF5E2B8007D000D711E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
